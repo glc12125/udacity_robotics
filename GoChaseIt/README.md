@@ -79,4 +79,4 @@ Rviz
 ![rviz](images/rviz.png)
 
 For the ball_chaser launch, you should see the robot starting moving towards the white ball, which is located in the view of the robot initially. You can move the ball around in the Gazebo world to test if the robot will follow the ball. You should expect something like the following demo:
-![chase_in_action](images/gochaseit.git)
+![chase_in_action](images/gochaseit.gif)
