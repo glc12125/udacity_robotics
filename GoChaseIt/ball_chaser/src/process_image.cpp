@@ -37,13 +37,16 @@ void process_image_callback(const sensor_msgs::Image img)
     
     // Initialization: assume the white ball is not detected
     int white_pixel_height = -1, white_pixel_step = -1; 
+
     int upper = img.height * img.step - 2;
-    for (int i = 0; i < upper; i++) {
+    int i = 0;
+    while (i < upper) {
       if (img.data[i] == 255 && img.data[i+1] == 255 && img.data[i+2] == 255) {
         white_pixel_height = i / img.step;
         white_pixel_step = i % img.step;
         break;
       } 
+      i += 3;
     }
     
     // Step II: determine if this white pixel falls in Forward, Left or Right area
