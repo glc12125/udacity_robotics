@@ -3557,7 +3557,7 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='my_robot'>
+      <model name='my_robot_1'>
         <pose frame=''>0.000197 0.000119 0.099999 -2e-05 0.000576 -2.87512</pose>
         <scale>1 1 1</scale>
         <link name='left_wheel'>
