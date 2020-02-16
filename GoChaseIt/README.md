@@ -56,7 +56,7 @@ $ catkin_make
 
 Note: gzserver will fail to load if the path is incorrect
 
-#### Run the Gazebo World file  
+#### Launch Gazebo world and services  
 ```sh
 $ cd ${your_catkin_ws}
 $ roslaunch my_robot world.launch
